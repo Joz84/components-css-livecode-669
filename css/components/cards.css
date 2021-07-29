@@ -1,0 +1,81 @@
+.card {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px gray;
+    padding: 10px;
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-top-img {
+    background-image: url("../../images/breakfast.jpg");
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.my-heart {
+    font-size: 40px;
+    color: pink;
+    text-shadow: 10px 10px 10px gray;
+    position: absolute;
+    top: 15px;
+    left: 15px; 
+}
+
+.card-top-infos {
+    flex-grow: 1;
+    padding: 25px;
+}
+
+.stars {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.my-star {
+    font-size: 32px;
+    color: gold;
+    margin-right: 15px;
+}
+
+.btn-first {
+    border-radius: 5px;
+    background: lightgreen;
+    color: white;
+    padding: 20px 30px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.card-middle {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    height: 400px;
+    margin: 25px 0px;
+}
+
+.card-bottom {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card-bottom > img {
+    width: 300px;
+    /* flex-grow: 1; */
+    object-fit: cover;
+    border-radius: 5px;
+    height: 300px;
+    margin: 25px 0px;  
+}
